@@ -9,6 +9,25 @@ body{
   font-family: "Azeret Mono", monospace;
 }
 
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 40px 166px 40px 150px ;
+}
+nav > button{
+  padding: 17px 24px 17px 24px;
+  box-sizing: border-box;
+border: 1px solid rgb(13, 19, 33);
+border-radius: 8px;
+opacity: 0.8;
+font-size: 20px;
+font-weight: 600;
+color: rgb(13, 19, 33);
+
+}
+
 /* header area style */
 
 .header-container{
@@ -19,7 +38,7 @@ border: 3px dotted gainsboro;
 border-left: none;
 border-right: none;
 background-image: url(../images/Hero-bg.png);
-margin-top: 131px;
+/* margin-top: 131px; */
 background-size: cover;
 background-position: center;
 
@@ -109,59 +128,55 @@ text-align: center;
 }
 
 .dveloper-contentainer{
-  max-width: 946px;
-  height: 400px;
-  border-radius: 12px;
+  
+  border-radius: 16px;
   background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
-   display: flex;
-   margin: 0 auto;
-  justify-content: space-between;
-  align-items: center;
-
-}
-
-.developer-content1{
-  /* width: 50%; */
-  width: 480px;
-  height: 400px;
-}
-.developer-content2{
-  /* width: 50%; */
-width: 259.56px;
-height: 217.01px;
-
+  max-width: 946px;
+ height: 336px;
+ margin: 0 auto;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin-top: 40px;
  
 }
+.developer-content{
+  max-width: 850px;
+  height: 240px;
+  display: flex; 
+  justify-content: space-between; 
+  gap: 70px; 
+}
+.developer-content1{
+  max-width: 477px;
+  height: 220px;
+
+}
+
 .developer-content1-title{
   color: rgba(13, 19, 33, 0.7);
-font-family: 'Azeret Mono';
-font-size: 24px;
-font-weight: 600px;
-margin-left: 48px;
-text-align: left;
+font-size: 25px;
+font-weight: 700;
+line-height: 36px;
+margin-bottom: 15px;
 }
-.developer-content1-description{
+.developer-content1-description {
   color: rgb(13, 19, 33);
-font-size: 16px;
+font-size: 30px;
 font-weight: 400;
-line-height: 26px;
-margin-left: 30px;
+line-height: 25px;
 
 }
-
 .btn-developer-content1{
+  padding: 12px 20px 12px 20px;
   color: rgb(13, 19, 33);
 font-size: 20px;
 font-weight: 600;
-line-height: 23px;
-text-align: center;
-border: 1px solid rgb(13, 19, 33);
-opacity: 0.7;
-margin-left: 50px;
-padding: 12px 20px 12px 20px;
-margin-top: 30px;
-}
 
+margin-top: 30px;
+
+
+}
 /* web system part design */
 
 .websystem-container{
@@ -405,10 +420,11 @@ align-items: center;
 /* support section style  start*/
 
 .support-containar{
-  border: 1px solid red;
-  background-image: url(../images/handshake.jpg);
+ background-color: rgba(0, 0, 0, 0.5);
+  background-image:url(../images/handshake.jpg);
   background-position: center;
   background-size: cover;
+
   max-width: 1140px;
   height: 313px;
   margin: 0 auto;
@@ -417,6 +433,7 @@ align-items: center;
   display: flex;
   justify-content: center;
   align-items: center;
+  background-blend-mode: o;
 }
 
 
@@ -481,8 +498,12 @@ border: none;
 /* footer section style*/
 
 .footer-container{
+max-width: 1440px;
+height:  100px;
 display: flex;
 align-items: center;
 justify-content: space-between;
 margin: 50px 70px;
 }
+
+
