@@ -282,3 +282,34 @@ margin-bottom: 30px;
   line-height: 23px;
   padding: 12px 20px 12px 20px;
 }
+
+.single-title-description{
+  width: 852px;
+  height: 52px;
+  margin: 0 auto;
+}
+
+.iframe-container{
+  border: 1px solid gray;
+  border-radius: 15px;
+  width: 1140px;
+  height: 614px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 48px;
+
+}
+.iframe-content iframe{
+  
+  width: 1076px;
+  height: 550px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 16px;
+  
+
+
+}
