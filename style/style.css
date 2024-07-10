@@ -10,6 +10,11 @@ body{
 }
 
 
+ span{
+  color: #ff7400;
+  font-size: 25px;
+}
+
 nav{
   display: flex;
   align-items: center;
